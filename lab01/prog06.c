@@ -5,7 +5,7 @@ int main(){
 	double l, pierw;
 	printf("Podaj liczbe rzeczywista do obliczenia pierwiastka: \n");
 	scanf("%lf", &l);
-	if(l<=0){
+	if(l<0){
 		printf("Podano niepoprawna liczbe :(\n");
 		return 0;
 	}
